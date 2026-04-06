@@ -1,0 +1,18 @@
+{
+  "imagePath": "/image-targets/marker_front_long/marker_front_long.jpg",
+  "metadata": null,
+  "name": "marker_front_long",
+  "type": "PLANAR",
+  "properties": {
+    "left": 0,
+    "top": 0,
+    "width": 640,
+    "height": 327,
+    "isRotated": false,
+    "originalWidth": 640,
+    "originalHeight": 327
+  },
+  "resources": {},
+  "created": 1775208260830,
+  "updated": 1775208260830
+}

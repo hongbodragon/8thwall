@@ -1,0 +1,18 @@
+{
+  "imagePath": "/image-targets/marker_inside_bottom_same/marker_inside_bottom_same.jpg",
+  "metadata": null,
+  "name": "marker_inside_bottom_same",
+  "type": "PLANAR",
+  "properties": {
+    "left": 0,
+    "top": 0,
+    "width": 640,
+    "height": 600,
+    "isRotated": false,
+    "originalWidth": 640,
+    "originalHeight": 600
+  },
+  "resources": {},
+  "created": 1775212577635,
+  "updated": 1775212577635
+}

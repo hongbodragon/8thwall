@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>TheHyundaiSeoul AR</title>
+  <meta name="description" content="Scan the poster on TheHyundaiSeoul building to see AR content">
+  <script crossorigin="anonymous" src="./external/scripts/8frame-1.5.0.min.js"></script>
+  <script crossorigin="anonymous" src="./external/xrextras/xrextras.js"></script>
+  <script crossorigin="anonymous" src="./external/landing-page/landing-page.js"></script>
+  <script crossorigin="anonymous" src="./external/xr/xr.js" data-preload-chunks="slam">
+  </script>
+
+<meta name="8thwall:renderer" content="aframe:1.5.0"/>
+<meta name="8thwall:package" content="@8thwall.xrextras"/>
+<meta name="8thwall:package" content="@8thwall.landing-page"/>
+
+</head>
+
+<body>
+<script src="bundle.js"></script>
+
+<a-scene
+  landing-page
+  xrextras-loading
+  xrextras-runtime-error
+  renderer="colorManagement:true"
+  xrweb="disableWorldTracking: true; allowedDevices: any">
+
+  <a-camera id="camera" position="0 8 8"></a-camera>
+
+  <!-- Poster image target: 3D sphere appears when poster is detected -->
+  <a-entity named-image-target="name: poster">
+    <a-sphere
+      sphere-animation="speed: 1.5; floatHeight: 0.15"
+      radius="0.15"
+      color="#FF6B35"
+      metalness="0.6"
+      roughness="0.3"
+      position="0 0.2 0">
+    </a-sphere>
+  </a-entity>
+
+
+  <!-- marker_front_long image target -->
+  <a-entity named-image-target="name: marker_front_long">
+    <a-sphere
+      sphere-animation="speed: 1.5; floatHeight: 0.15"
+      radius="0.15"
+      color="#4A90D9"
+      metalness="0.6"
+      roughness="0.3"
+      position="0 0.2 0">
+    </a-sphere>
+  </a-entity>
+  <!-- marker_inside_top_small image target -->
+  <a-entity named-image-target="name: marker_inside_top_small">
+    <a-sphere
+      sphere-animation="speed: 1.5; floatHeight: 0.15"
+      radius="0.15"
+      color="#4A90D9"
+      metalness="0.6"
+      roughness="0.3"
+      position="0 0.2 0">
+    </a-sphere>
+  </a-entity>
+  <!-- marker_inside_top_long image target -->
+  <a-entity named-image-target="name: marker_inside_top_long">
+    <a-sphere
+      sphere-animation="speed: 1.5; floatHeight: 0.15"
+      radius="0.15"
+      color="#4A90D9"
+      metalness="0.6"
+      roughness="0.3"
+      position="0 0.2 0">
+    </a-sphere>
+  </a-entity>
+  <!-- marker_inside_bottom_small image target -->
+  <a-entity named-image-target="name: marker_inside_bottom_small">
+    <a-sphere
+      sphere-animation="speed: 1.5; floatHeight: 0.15"
+      radius="0.15"
+      color="#4A90D9"
+      metalness="0.6"
+      roughness="0.3"
+      position="0 0.2 0">
+    </a-sphere>
+  </a-entity>
+  <!-- marker_inside_bottom_long image target -->
+  <a-entity named-image-target="name: marker_inside_bottom_long">
+    <a-sphere
+      sphere-animation="speed: 1.5; floatHeight: 0.15"
+      radius="0.15"
+      color="#4A90D9"
+      metalness="0.6"
+      roughness="0.3"
+      position="0 0.2 0">
+    </a-sphere>
+  </a-entity>
+  <!-- marker_inside_bottom_same image target -->
+  <a-entity named-image-target="name: marker_inside_bottom_same">
+    <a-sphere
+      sphere-animation="speed: 1.5; floatHeight: 0.15"
+      radius="0.15"
+      color="#4A90D9"
+      metalness="0.6"
+      roughness="0.3"
+      position="0 0.2 0">
+    </a-sphere>
+  </a-entity>
+  <!-- Lighting -->
+  <a-light type="ambient" intensity="0.7"></a-light>
+  <a-entity
+    light="type: directional; intensity: 0.8"
+    position="1 4 2">
+  </a-entity>
+
+</a-scene>
+
+</body>
+
+</html>

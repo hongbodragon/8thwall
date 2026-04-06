@@ -1,0 +1,18 @@
+{
+  "imagePath": "/image-targets/poster/poster.png",
+  "metadata": null,
+  "name": "poster",
+  "type": "PLANAR",
+  "properties": {
+    "left": 0,
+    "top": 0,
+    "width": 480,
+    "height": 640,
+    "isRotated": false,
+    "originalWidth": 480,
+    "originalHeight": 640
+  },
+  "resources": {},
+  "created": 1712000000000,
+  "updated": 1712000000000
+}

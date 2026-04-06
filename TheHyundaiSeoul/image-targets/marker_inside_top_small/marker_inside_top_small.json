@@ -1,0 +1,18 @@
+{
+  "imagePath": "/image-targets/marker_inside_top_small/marker_inside_top_small.jpg",
+  "metadata": null,
+  "name": "marker_inside_top_small",
+  "type": "PLANAR",
+  "properties": {
+    "left": 0,
+    "top": 0,
+    "width": 640,
+    "height": 403,
+    "isRotated": false,
+    "originalWidth": 640,
+    "originalHeight": 403
+  },
+  "resources": {},
+  "created": 1775209374463,
+  "updated": 1775209374463
+}
