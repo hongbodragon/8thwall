@@ -10,6 +10,9 @@
     "build": "webpack --config config/webpack.config.js",
     "start": "serve -s dist -l $PORT"
   },
+  "dependencies": {
+    "serve": "^14.2.3"
+  },
   "devDependencies": {
     "@babel/parser": "^7.23.9",
     "@babel/plugin-transform-runtime": "^7.28.5",
